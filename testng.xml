@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Shurgard End to End Application">
+	<listeners>
+		<listener
+			class-name="com.shurgard.automation.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="TC_01">
+		<classes>
+			<class name="com.shurgard.automation.testScripts.TC_01" />
+		</classes>
+	</test>
+	<test name="TC_02">
+		<classes>
+			<class name="com.shurgard.automation.testScripts.TC_02" />
+		</classes>
+	</test>
+</suite>
